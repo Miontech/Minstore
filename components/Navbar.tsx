@@ -19,10 +19,8 @@ const Navbar = () => {
     <div className="w-full fixed z-20 top-0 bg-white shadow-md">
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex items-center justify-between space-x-2">
-          <Link href="/">
-            <a className="font-josef text-xl cursor-pointer text-black">
-              Minstore
-            </a>
+          <Link className="font-josef text-xl cursor-pointer text-black" href="/">
+            Minstore
           </Link>
           <div className="space-x-3  justiy-center items-center flex">
             <div
@@ -33,9 +31,8 @@ const Navbar = () => {
               {token ? (
                 <button
                   onClick={() => dispatch(setModalLogout())}
-                  className={`${
-                    hover && "hover:text-red-600 hover:border-red-900"
-                  } py-4 mx-4 items-center inline-flex text-black border-b-2 border-transparent ease-linear transition-all duration-400`}
+                  className={`${hover && "hover:text-red-600 hover:border-red-900"
+                    } py-4 mx-4 items-center inline-flex text-black border-b-2 border-transparent ease-linear transition-all duration-400`}
                 >
                   <div className="block">{hover ? "Logout" : user.name}</div>
                 </button>

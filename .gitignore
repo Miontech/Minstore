@@ -28,3 +28,19 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# vercel
+.vercel
+
+# # typescript
+# *.tsbuildinfo
+# next-env.d.ts
+
+# # PWA
+# **/public/sw.js
+# **/public/workbox-*.js
+# **/public/workbox-*.js.map
+# **/public/workbox-*.json
+# **/public/worker-*.js
+# **/public/worker-*.js.map
+# **/public/sw.js.map
