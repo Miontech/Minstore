@@ -18,6 +18,7 @@ export default class MyDocument extends Document {
                         name="author"
                         content="Muhaemin Iskandar"
                     />
+                    <meta name="google-site-verification" content="7KgkV67H12Dm3cvEblpXUAYgoT9BpUzCN8Cw-JXVQjc" />
                 </Head>
                 <body>
                     <Main />
